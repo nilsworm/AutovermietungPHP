@@ -1,0 +1,202 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    color: #666;
+    font-size: 15px;
+}
+
+h1 {
+    margin: 10px;
+    color: #4d4d4d;
+    font-size: 30px;
+}
+
+h1 span {
+    color: orange;
+    font-size: 40px;
+}
+
+h2 {
+    color: orange;
+    padding: 10px 0 0 10px;
+}
+
+main {
+    margin-top: 135px;
+    padding: 10px;
+}
+
+#wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #4d4d4d;
+    color: white;
+}
+
+.msg {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.msg a {
+    text-decoration: none;
+    color: #09add0;
+    
+}
+
+.msg a:hover {
+   color: orange; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+    margin: 0;
+}
+
+nav li {
+    float: left;
+    text-align: center;
+    
+}
+
+nav li a {
+    display: block;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #4d4d4d;
+    background-color: #4d4d4d;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    text-align: center;
+    line-height: 30px;
+}
+
+nav li a:hover {
+    background-color: orange;
+}
+
+nav {
+    position: fixed;
+    background: white;
+    top: 0px;
+    width: 600px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#metanavi {
+    color: #4d4d4d;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#metanavi a {
+    background: #09add0;
+    border: none; 
+    width: 100px; 
+    margin: 0 5px 0 5px; 
+    float: right; 
+    padding: 2px; 
+    border-radius: 5px; 
+    color:#fff;  
+    cursor:pointer; 
+    font-size: 12px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#metanavi a:hover {
+    background: orange;
+}
+
+.articleImg {
+    width: 100%;
+    border: 2px solid lightskyblue;
+    padding: 5px;
+    margin: 0 0 15px 0;
+}
+
+.welcomeImg {
+    width: 100%;
+    padding: 5px;
+}
+
+.articleInfo {
+    font-weight: bold;
+}
+
+/*** Formulare ***/
+
+form {
+    width: 440px;
+    margin: auto;
+}
+
+label {
+    width: 120px;
+    display: inline-block;
+    margin: 5px 15px 10px 0;
+    vertical-align: top;
+    text-align: right;
+}
+
+label.errorMsg {
+    width: 420px;
+    display: inline-block;
+    margin: 0 5px 15px 0;
+    vertical-align: top;
+    text-align: right;
+    color: orange;
+}
+
+input {
+    width: 300px;
+}
+
+input[type="submit"] {
+    width: 100px;
+    margin-left: 330px;
+}
+
+form textarea {
+    width: 300px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+form select {
+    width: 300px;
+}
+/*** Loesung Workshop-Seite ***/
+
+.textContent {
+    padding: 0 10px 0 30px;
+}
+
+@media (max-width: 529px) {
+    .textContent {
+        padding: 15px 0 0 0;
+    }
+}
+
+.event h3 {
+    margin: 15px 0 5px 0;
+    font-size: 20px;
+    text-align: left;
+}
+
+.orange {
+    color: orange;
+    display: block;
+    font-size: 18px;
+    margin: 0 0 5px 0;
+}
