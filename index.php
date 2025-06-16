@@ -38,8 +38,6 @@ if (method_exists($controllerClassName, $doMethodName)) {
     $view->render();
 
 } else {
-    new \Blog\Library\ErrorMsg('Page not found: '.$controllerClassName.'::'.$doMethodName); 
+    // new \Blog\Library\ErrorMsg('Page not found: '.$controllerClassName.'::'.$doMethodName); 
 }
-  
-?>
        
